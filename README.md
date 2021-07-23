@@ -24,9 +24,16 @@ When the data was received it was filled with placeholder values, all of which w
 ### Explore
 
 During this step I looked at all the continuous features as well as the categorical features. While looking at personality score measurements, I found that Neuroticism and Conscientiousness incited further questions. I also wanted to know more about if level of education had an effect on whether or not one uses drugs. It was during this time that I did some further exploration and sought to answer some questions based on the data about what might make one more likely to be not just an alcohol user but a user of multiple drugs:
+
     * Are those who score higher on Neuroticism more likely to be drug users than those who score lower?
+    
+    ![graph](https://raw.githubusercontent.com/srobz/Module-3-Project/main/Visualizations/DrugUsagexNeuroticism.png)
+    
     * Are those who score lower on Conscientiousness more likely to use drugs than those who score higher?
+    ![graph](https://raw.githubusercontent.com/srobz/Module-3-Project/main/Visualizations/DrugUsagexConscientiousness.png)
+    
     * Which makes you more likely to be a drug user, having a Doctorate or a Masters degree?
+    ![graph](https://raw.githubusercontent.com/srobz/Module-3-Project/main/Visualizations/DrugUsagexEducation.png)
 
 Following my further exploration, I did a check for multicollinearity as well as created dummy variables for all the categorical variables, which for this dataset was most of the features. Upon feature selection using Statsmodel's Ordinary Least Squares (OLS), I ended up removing all the personality score measurements (which were all of the continuous features), as well as twelve of the categorical features.
 
@@ -40,7 +47,8 @@ I tuned the Logistic Regression model a total of five times, implementing a diff
 
 The final model is the AdaBoost model with the number of estimators set to 100. This model accurately predicts whether or not an individual is a user of alcohol with a cross validation score of 99.4% and training and teseting accuracy between 92 and 93%.
 
-IMAGE OF ADATUNE2
+![graph](https://raw.githubusercontent.com/srobz/Module-3-Project/main/Visualizations/TunedAda2.png)
+
     
 
 ## Conclusion
