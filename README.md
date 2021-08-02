@@ -43,11 +43,11 @@ Following my further exploration, I did a check for multicollinearity as well as
 
 I took a brute force approach and tried six different models, then compared their ROC curves and model scores. This approach allowed me to determine two top models, Logistic Regression and AdaBoost. They both had training and test accuracies around 92-93% and AUC values around 0.68. To find the best model, I tuned these two multiple times.
 
-I tuned the Logistic Regression model a total of five times, implementing a different value for C each time. I tuned the AdaBoost model 8 times, varying the number of estimators, learning rate, and mixing and matching the two changed values. Again, I compared the tuned model ROC curves and scores to find my best and final model.
+I tuned the Logistic Regression model a total of five times, implementing a different value for C each time. I tuned the AdaBoost model eight times, varying the number of estimators, learning rate, and mixing and matching the two changed values. Again, I compared the tuned model ROC curves and scores to find my best and final model.
 
 ### iNterpret
 
-The final model is the AdaBoost model with the number of estimators set to 100. This model accurately predicts whether or not an individual is a user of alcohol with a cross validation score of 99.4% and training and teseting accuracy between 92 and 93%.
+The final model is the AdaBoost model with the number of estimators set to 100. This model accurately predicts whether or not an individual is a user of alcohol with a cross validation score of 99.4% and training and testing accuracy between 92 and 93%.
 
 ![graph](https://raw.githubusercontent.com/srobz/Module-3-Project/main/Visualizations/TunedAda2.png)
 
@@ -72,6 +72,7 @@ This means that these features are most important in determining whether or not 
 ## Citation
 
 1. Drug Consumption (quantified) Data Set. Available at: https://archive.ics.uci.edu/ml/datasets/Drug+consumption+%28quantified%29
+2. Medium Project Blog Post. Available at: https://medium.com/@sara.robinson27/alcohol-consumption-predicting-usage-and-risk-factors-8cfffc79a4cc
 
 
 ## Repository Organization
