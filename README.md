@@ -80,7 +80,7 @@ This means that these features are most important in determining whether or not 
 - ['Module 3 Project - 1. Data Cleaning.ipynb'](https://github.com/srobz/Module-3-Project/blob/main/Module%203%20Project%20-%201.%20Data%20Cleaning.ipynb) : Jupyter notebook of Data Cleaning with code and comments
 - ['Module 3 Project - 2. Data Exploration.ipynb'](https://github.com/srobz/Module-3-Project/blob/main/Module%203%20Project%20-%202.%20Data%20Exploration.ipynb) : Jupyter notebook of Data Exploration with code and comments
 - ['Module 3 Project - 3. Data Modeling.ipynb'](https://github.com/srobz/Module-3-Project/blob/main/Module%203%20Project%20-%20%203.%20Data%20Modeling.ipynb) : Jupyter notebook of Data Modeling with code and comments
-- [Module 3 Presentation.pdf](https://github.com/srobz/dsc-mod-2-project-v2-1-online-ds-sp-000/blob/master/Module%202%20Presentation.pdf) : Project presentation
+- [Module 3 Project Presentation.pdf](https://github.com/srobz/Module-3-Project/blob/main/Module%203%20Project%20Presentation.pdf) : Project presentation
 - ['Visualizations'](https://github.com/srobz/Module-3-Project/tree/main/Visualizations) : Folder containing graphs used in ReadME
 - ['drug_consumption.data'](https://github.com/srobz/Module-3-Project/blob/main/drug_consumption.data) : Original dataset used for project
 - ['UpdatedDF.csv'](https://github.com/srobz/Module-3-Project/blob/main/UpdatedDF.csv) : Updated dataset from the end of Module 3 Project - 1. Data Cleaning
